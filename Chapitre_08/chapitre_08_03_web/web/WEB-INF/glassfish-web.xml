@@ -1,0 +1,8 @@
+
+<glassfish-web-app>
+<security-role-mapping>
+    <principal-name>fabien</principal-name>      
+    <role-name>admin</role-name>
+    <group-name>admin</group-name>
+</security-role-mapping>
+</glassfish-web-app>

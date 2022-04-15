@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link href="//cdn.muicss.com/mui-0.9.39/css/mui.min.css" rel="stylesheet" type="text/css" />
+        <script src="//cdn.muicss.com/mui-0.9.39/js/mui.min.js"></script>
+    </head>
+    <body>
+        <header id="header">
+            <div class="mui-appbar mui--appbar-line-height">
+                Linkedin Learning
+            </div>
+        </header>
+        
+        <div class="mui-container-fluid">
+            <div class="mui-panel">
+          <form class="mui-form" method="POST" action="j_security_check" />
+           <input type="text" name="j_username"/>
+           <input type="password" name="j_password"/>
+           <input type="submit" name="login"  value="Login"/>
+        </form>
+            </div>
+        </div>
+    </body>
+</html>
